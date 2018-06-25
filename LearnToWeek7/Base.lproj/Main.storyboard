@@ -170,13 +170,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0bi-xa-bA5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Gallery" id="1Ks-g9-omC">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="joZ-DO-nyC">
-                            <connections>
-                                <action selector="cancelTapped:" destination="gpS-nL-4pX" id="mS6-vx-UQ1"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Gallery" id="1Ks-g9-omC"/>
                     <connections>
                         <outlet property="imageView" destination="JHl-mK-qgW" id="X3t-Hw-ids"/>
                     </connections>
