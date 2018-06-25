@@ -27,8 +27,7 @@ class ImagesViewController: UIViewController, UIImagePickerControllerDelegate, U
         guard UIImagePickerController.isSourceTypeAvailable(src)
             else {return}
         let picker = UIImagePickerController()
-        // picker.sourceType = src
-        picker.sourceType = .photoLibrary
+        picker.sourceType = src
         picker.delegate = self
         self.present(picker, animated: true)
     }
