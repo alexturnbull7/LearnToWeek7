@@ -13,7 +13,6 @@ class ContactsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getContacts()
         // Do any additional setup after loading the view.
     }
 
@@ -22,25 +21,6 @@ class ContactsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func getContacts() {
-        let contactStore = CNContactStore()
-        var contacts = [CNContact]()
-        let keys = [CNContactFormatter.descriptorForRequiredKeys(for: .fullName)]
-        let request = CNContactFetchRequest(keysToFetch: keys)
-        
-        do {
-            try contactStore.enumerateContacts(with: request) { (contact, stop) in
-                contacts.append(contact)
-            }
-            
-            print(contacts);
-        } catch {
-            print(error.localizedDescription)
-        }
-    
-    }
-    
-
     /*
     // MARK: - Navigation
 

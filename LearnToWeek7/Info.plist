@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSContactsUsageDescription</key>
-	<string>Uses the contacts to display them in the app</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Uses the location to add it to a map</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Uses the location to add it to a map</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Uses the location to add it to a map</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -42,8 +34,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>Allows the app to take photos</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

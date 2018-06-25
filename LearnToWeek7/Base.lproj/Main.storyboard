@@ -67,10 +67,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rQp-8v-I0g">
-                                <rect key="frame" x="23" y="72" width="332" height="332"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbz-x7-crT">
                                 <rect key="frame" x="148" y="502" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -107,9 +103,6 @@
                         <viewLayoutGuide key="safeArea" id="dR8-Ys-t1C"/>
                     </view>
                     <navigationItem key="navigationItem" title="Images" id="2Ll-nE-kGo"/>
-                    <connections>
-                        <outlet property="image" destination="rQp-8v-I0g" id="iOl-Gy-6tX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKE-UK-uCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,18 +115,9 @@
                     <view key="view" contentMode="scaleToFill" id="KcE-dm-e6r">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ly6-Vn-O67">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5PC-HD-4DW"/>
                     </view>
-                    <connections>
-                        <outlet property="map" destination="Ly6-Vn-O67" id="Ddu-OX-cXo"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhR-m6-mhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,25 +145,10 @@
                     <view key="view" contentMode="scaleToFill" id="ZnW-rs-F6t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHl-mK-qgW">
-                                <rect key="frame" x="59" y="205" width="257" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0bi-xa-bA5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Gallery" id="1Ks-g9-omC">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="joZ-DO-nyC">
-                            <connections>
-                                <action selector="cancelTapped:" destination="gpS-nL-4pX" id="mS6-vx-UQ1"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="imageView" destination="JHl-mK-qgW" id="X3t-Hw-ids"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Gallery" id="1Ks-g9-omC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62s-qe-slt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
