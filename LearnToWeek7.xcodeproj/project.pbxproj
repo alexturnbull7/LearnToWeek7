@@ -10,7 +10,6 @@
 		E53DB98020D70B1900D14614 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53DB97F20D70B1900D14614 /* MapsViewController.swift */; };
 		E5562DFD20E0DAB300FD3557 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5562DFC20E0DAB300FD3557 /* ContactsViewController.swift */; };
 		E5E155A820D5959500EC8EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E155A720D5959500EC8EF8 /* AppDelegate.swift */; };
-		E5E155AA20D5959500EC8EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E155A920D5959500EC8EF8 /* ViewController.swift */; };
 		E5E155AD20D5959500EC8EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E155AB20D5959500EC8EF8 /* Main.storyboard */; };
 		E5E155AF20D5959600EC8EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E155AE20D5959600EC8EF8 /* Assets.xcassets */; };
 		E5E155B220D5959600EC8EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E155B020D5959600EC8EF8 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		E5562DFC20E0DAB300FD3557 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		E5E155A420D5959500EC8EF8 /* LearnToWeek7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnToWeek7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E155A720D5959500EC8EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5E155A920D5959500EC8EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5E155AC20D5959500EC8EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5E155AE20D5959600EC8EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E155B120D5959600EC8EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			children = (
 				E5E155BB20D5A5D500EC8EF8 /* ImagesViewController.swift */,
 				E5E155A720D5959500EC8EF8 /* AppDelegate.swift */,
-				E5E155A920D5959500EC8EF8 /* ViewController.swift */,
 				E5E155AB20D5959500EC8EF8 /* Main.storyboard */,
 				E5E155AE20D5959600EC8EF8 /* Assets.xcassets */,
 				E5E155B020D5959600EC8EF8 /* LaunchScreen.storyboard */,
@@ -150,7 +147,6 @@
 				E53DB98020D70B1900D14614 /* MapsViewController.swift in Sources */,
 				E5E155BC20D5A5D500EC8EF8 /* ImagesViewController.swift in Sources */,
 				E5E155BE20D6BE2200EC8EF8 /* GalleryViewController.swift in Sources */,
-				E5E155AA20D5959500EC8EF8 /* ViewController.swift in Sources */,
 				E5E155A820D5959500EC8EF8 /* AppDelegate.swift in Sources */,
 				E5562DFD20E0DAB300FD3557 /* ContactsViewController.swift in Sources */,
 			);

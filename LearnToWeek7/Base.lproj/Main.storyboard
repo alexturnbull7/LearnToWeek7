@@ -71,17 +71,11 @@
                                 <rect key="frame" x="148" y="502" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save Photo"/>
-                                <connections>
-                                    <action selector="saveImageTapped:" destination="aU2-VX-ZR9" eventType="touchUpInside" id="kCZ-Ln-6VN"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5T-C4-Pky">
                                 <rect key="frame" x="151" y="438" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Take Photo"/>
-                                <connections>
-                                    <action selector="takePhotoTapped:" destination="aU2-VX-ZR9" eventType="touchUpInside" id="CUY-Hb-6qM"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUO-vV-tsw">
                                 <rect key="frame" x="147" y="562" width="85" height="30"/>
